@@ -1,0 +1,16 @@
+{
+  "name": "boraestagio-mvp",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "MVP navegável da BoraEstágio para a disciplina Startup One.",
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "build": "node scripts/build.mjs",
+    "lint": "node scripts/lint.mjs",
+    "typecheck": "node --check src/data.js && node --check src/utils.js && node --check src/app.js",
+    "test": "node --test tests/unit.test.mjs",
+    "test:e2e": "python3 tests/e2e.py",
+    "validate": "npm run lint && npm run typecheck && npm run test && npm run build && npm run test:e2e"
+  }
+}
