@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "description": "MVP navegável da BoraEstágio para a disciplina Startup One.",
+  "description": "Protótipo navegável de um marketplace fictício de estágios e posições júnior.",
   "scripts": {
     "dev": "node scripts/serve.mjs",
     "build": "node scripts/build.mjs",
